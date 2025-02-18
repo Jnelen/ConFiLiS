@@ -1,0 +1,12 @@
+name: confilis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - openbabel
+  - tqdm
+  - pip
+  - rdkit=2023.09.6
+  - pip:
+      - git+https://github.com/hcji/PyFingerprint.git
